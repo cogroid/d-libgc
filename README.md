@@ -53,5 +53,24 @@ Unzip to folder /home/cogroid/local/android-ndk-r18b
 sudo apt install clang
 ```
 
+### Build for x64 machine
+
+```
+sudo apt update
+cd ${GC_DIR}/make/x64
+make > build.log&
+```
+
+```
+sudo apt update
+cd ${GC_DIR}/make/x64
+make install
+```
+
+```
+Built files are at /home/cogroid/local/libgc/x64
+```
+
+
 ---
 [Head icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/head)
