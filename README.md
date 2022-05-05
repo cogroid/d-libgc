@@ -8,5 +8,50 @@
 * [Source Package: libgc (1:7.4.2-8ubuntu1)](https://packages.ubuntu.com/source/bionic/libgc)
 
 
+### Prerequisites
+
+###### build-essential
+
+```
+sudo apt-get install build-essential
+```
+
+###### libatomic-ops-dev
+
+```
+sudo apt install libatomic-ops-dev
+```
+
+###### GLIBC == 2.27
+
+```
+ldd --version
+```
+
+* Ubuntu 18.04
+
+###### GCC 32 bit
+
+```
+sudo apt install gcc-multilib
+
+sudo apt install g++-multilib
+```
+
+###### NDK r18b
+
+* [NDK Downloads](https://developer.android.com/ndk/downloads)
+* [NDK r18b for Linux](https://dl.google.com/android/repository/android-ndk-r18b-linux-x86_64.zip)
+
+```
+Unzip to folder /home/cogroid/local/android-ndk-r18b
+```
+
+###### clang
+
+```
+sudo apt install clang
+```
+
 ---
 [Head icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/head)
