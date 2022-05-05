@@ -71,6 +71,24 @@ make install
 Built files are at /home/cogroid/local/libgc/x64
 ```
 
+### Build for i386 machine
+
+```
+sudo apt update
+cd ${GC_DIR}/make/i386
+make > build.log&
+```
+
+```
+sudo apt update
+cd ${GC_DIR}/make/i386
+make install
+```
+
+```
+Built files are at /home/cogroid/local/libgc/i386
+```
+
 
 ---
 [Head icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/head)
