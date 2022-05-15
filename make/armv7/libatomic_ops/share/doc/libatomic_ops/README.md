@@ -82,6 +82,23 @@ make install
 Built files are at /home/cogroid/local/libatomic_ops/i386
 ```
 
+### Build for armv7-a machine
+
+```
+sudo apt update
+cd ${AO_DIR}/make/armv7
+make > build.log&
+```
+
+```
+sudo apt update
+cd ${AO_DIR}/make/armv7
+make install
+```
+
+```
+Built files are at /home/cogroid/local/libatomic_ops/armv7
+```
 
 ---
 [Head icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/head)

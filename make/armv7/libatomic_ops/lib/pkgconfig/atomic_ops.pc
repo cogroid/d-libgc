@@ -1,4 +1,4 @@
-prefix=/home/cogroid/local/libatomic_ops/armv7
+prefix=/data/data/com.cogroid.atomspace.tester/libatomic_ops
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
